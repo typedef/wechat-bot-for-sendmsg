@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6"
+    , "module": "commonjs"
+    , "outDir": "dist"
+    , "declaration": true
+    , "sourceMap": true
+    , "strict": true
+    , "traceResolution": false
+    , "esModuleInterop" : true
+    , "resolveJsonModule": true
+    , "skipLibCheck"    : true
+    , "lib": [
+      "dom",
+      "esnext"
+    ]
+  }
+  , "exclude": [
+      "node_modules/"
+    , "dist/"
+    , "examples/raw-bot.ts"
+  ]
+  , "include": [
+       "bin/*.ts"
+     , "scripts/**/*.ts"
+     , "examples/**/*.ts"
+     , "src/**/*.ts"
+     , "tests/**/*.spec.ts", "examples/wechaty-padchat-bot.js", "examples/WechatyBot.ts", "examples/redis.js","examples/DiscordAppBot.ts", "examples/test.js",
+  ]
+}

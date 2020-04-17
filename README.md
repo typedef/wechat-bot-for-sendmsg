@@ -53,7 +53,7 @@ npm install wechaty-puppet-padchat
 ```ts
 import { Wechaty } from 'wechaty'
 
-const WECHATY_PUPPET_PADCHAT_TOKEN = 'puppet_padchat_65a1ed1e45b40b3a'
+const WECHATY_PUPPET_PADCHAT_TOKEN = 'puppet_padchat_'
 
 const puppet = 'wechaty-puppet-padchat'
 const puppetOptions = {
